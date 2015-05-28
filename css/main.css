@@ -1,0 +1,112 @@
+.clear{
+	overflow: auto;
+}
+
+html, body{
+	font-family: 'Shadows Into Light', sans-serif;
+	font-weight: normal;
+	background-color: rgb(229, 252, 246);
+	color: rgb(223, 8, 171);
+}
+
+.maincontainer{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 90%;
+}
+
+h1{
+	font-family: 'Shadows Into Light', cursive sans-serif;
+	font-size: 60px;
+	padding: 10px 0;
+	margin-bottom: -2px;
+	background-color: rgb(229, 252, 246);
+}
+
+h1 a{
+	color: rgb(223, 8, 171);
+	text-decoration: none;
+}
+
+h1 a:hover{
+	color: navy;
+	text-decoration: none;
+}
+
+.sticky_nav{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	background-color: rgb(229, 252, 246);
+
+
+}
+
+nav{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 100%;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-right: 40px;
+	text-align: center;
+}
+
+nav a{
+	text-decoration: none;
+	color: navy;
+}
+
+nav a:hover{
+	color: rgb(21, 171, 148);
+}
+
+p{
+	font-size: 24px;
+  	font-weight: bold;
+  	padding-left: 35px;
+  	padding-right: 35px;
+}
+
+.intro{
+	width: 80%;
+	height: auto; 
+	overflow: auto;
+	margin-top: 150px;
+	
+}
+
+/**************************
+	Masonry Grid Styles
+**************************/
+/*Set a width on the container grid and center it*/
+#imageGrid{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/*Set a width on each Masonry block and float them to properly stack*/
+.item{
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+
+/*Create a larger width item for featured content*/
+.wide-item{
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+/*Makes sure the image is only as big as its parent*/
+img {
+width: 100%;
+height: auto;
+}
