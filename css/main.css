@@ -97,7 +97,7 @@ p{
 
 .fade:hover{
 	opacity: 0.5;
-	overflow: hidden;
+	overflow: inherit;
 
 }
 /**************************
