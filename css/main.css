@@ -91,7 +91,7 @@ p{
 **************************/
 
 /* Effect 1: opacity */
-.fade.img{
+.fade{
 	opacity: .5;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
@@ -99,7 +99,7 @@ p{
     -o-transition: opacity .5s ease-out;
 }
 
-.fade.img:hover{
+.fade:hover{
 	opacity: 1;
 
 }
