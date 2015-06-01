@@ -22,13 +22,13 @@ h1{
 	padding: 10px 0;
 	margin-bottom: -2px;
 	margin-left: -10px;
-	background-color: rgba(223, 8, 171, .75);
 
 }
 
 h1 a{
 	color: rgb(229, 252, 246);
 	text-decoration: none;
+	background-color: rgba(223, 8, 171, .75);
 }
 
 h1 a:hover{
