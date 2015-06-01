@@ -16,6 +16,10 @@ html, body{
 	width: 90%;
 }
 
+header{
+	background: linear-gradient(70deg, rgb(223, 8, 171), white);
+}
+
 h1{
 	font-family: 'Shadows Into Light', cursive sans-serif;
 	font-size: 60px;
@@ -40,7 +44,7 @@ h1 a:hover{
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	width: 100%;
-	background-color: rgba(223, 8, 171, .75);
+	background-color: rgb(223, 8, 171);
 	margin-left: -10px;
 }
 
