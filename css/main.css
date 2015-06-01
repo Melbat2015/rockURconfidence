@@ -91,7 +91,7 @@ p{
 **************************/
 
 /* Effect 1: opacity */
-.imageGrid.effect-1 li.animate {
+.item.effect-1 img.animate {
 	-webkit-animation: fadeIn 0.65s ease forwards;
 	animation: fadeIn 0.65s ease forwards;
 }
