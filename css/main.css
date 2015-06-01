@@ -18,6 +18,8 @@ html, body{
 
 header{
 	background: linear-gradient(0deg, rgb(223, 8, 171), rgb(229, 252, 246));
+	position: absolute;
+	overflow-y: scroll;
 }
 
 h1{
@@ -38,7 +40,7 @@ h1 a:hover{
 	color: navy;
 	text-decoration: none;
 }
-
+/****Sticky Nav elements****/
 .sticky_nav{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
