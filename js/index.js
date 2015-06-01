@@ -12,7 +12,7 @@ $("sticky_nav").stick_in_parent();
 	});
 });
 
-AnimOnScroll( document.getElementById( 'grid' ), {
+AnimOnScroll( document.getElementById( 'item' ), {
 		minDuration : 0.4,
 		maxDuration : 0.7,
 		viewportFactor : 0.2
