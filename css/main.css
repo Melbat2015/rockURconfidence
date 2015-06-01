@@ -19,7 +19,6 @@ html, body{
 header{
 	background: linear-gradient(0deg, rgb(223, 8, 171), rgb(229, 252, 246));
 	position: fixed;
-	overflow-y: scroll;
 }
 
 h1{
