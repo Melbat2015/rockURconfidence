@@ -49,6 +49,7 @@ nav{
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	width: 100%;
+	background-color: rgba(223, 8, 171, .75);
 }
 
 nav ul li{
