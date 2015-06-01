@@ -91,19 +91,13 @@ p{
 **************************/
 
 /* Effect 1: opacity */
-.item.effect-1 img.animate {
-	-webkit-animation: fadeIn 0.65s ease forwards;
-	animation: fadeIn 0.65s ease forwards;
+.fade{
+	opacity: 0.5;
 }
 
-@-webkit-keyframes fadeIn {
-	0% { }
-	100% { opacity: 1; }
-}
+.fade:hover{
+	opacity: 1;
 
-@keyframes fadeIn {
-	0% { }
-	100% { opacity: 1; }
 }
 /**************************
 	Masonry Grid Styles
@@ -113,6 +107,7 @@ p{
 	width: 90%;
 	margin: 0 auto;
 	padding: 0 auto;
+	transition: all 0.3s ease;
 }
 
 /*Set a width on each Masonry block and float them to properly stack*/
@@ -120,7 +115,6 @@ p{
 	float: left;
 	width: 30%;
 	padding: 5px;
-	transition: all 0.3s ease;
 }
 
 /*Create a larger width item for featured content*/
