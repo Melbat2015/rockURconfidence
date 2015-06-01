@@ -103,7 +103,7 @@ p{
 
 .fade:hover{
 	opacity: .5;
-	overflow: hidden;
+	overflow-y: scroll hidden;
 
 }
 /**************************
