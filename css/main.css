@@ -42,7 +42,9 @@ h1 a:hover{
 	width: 100%;
 	background-color: rgba(223, 8, 171, .75);
 	margin-left: -10px;
-	border-bottom: 1px;
+	-webkit-box-shadow: -1px 5px 15px 2px rgba(108,111,112,0.75);
+	-moz-box-shadow: -1px 5px 15px 2px rgba(108,111,112,0.75);
+	box-shadow: -1px 5px 15px 2px rgba(108,111,112,0.75);
 }
 
 nav{
